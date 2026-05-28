@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>백링크 대행 정보 — 마포 프록시 보안 PBN</title>
+    <meta name="description" content="마포에서 직접 운영하는 프록시 보안 & 백링크 대행 전문. Tier3 PBN 사이트의 상세 정보와 운영 방식을 투명하게 공개합니다. 전화 010-6279-0862">
+    <meta name="keywords" content="프록시 보안, 백링크 대행, 마포, PBN 정보, Tier3, 백링크 사이트, 프록시 백링크, 보안 백링크, 정보 페이지">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <link rel="canonical" href="https://sf-t3-1779642675702-385.pages.dev/info">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="백링크 대행 정보 · 프록시 보안 — 마포">
+    <meta property="og:description" content="마포에서 운영하는 프록시 보안 & 백링크 대행 전문. 상세 정보와 운영 방식을 투명하게 공개합니다. 직접 느껴보세요.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sf-t3-1779642675702-385.pages.dev/info">
+    <meta property="og:locale" content="ko_KR">
+
+    <!-- CSS (디자인 시스템 재사용) -->
+    <style>
+        /* ===== RESET & BASE ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            line-height: 1.6;
+            background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.02) 0px, rgba(255, 255, 255, 0.02) 2px, transparent 2px, transparent 4px);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* ===== BRUTALIST TEXTURE ===== */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(90deg, rgba(0, 255, 255, 0.03) 0px, rgba(0, 255, 255, 0.03) 1px, transparent 1px, transparent 3px),
+                        repeating-linear-gradient(0deg, rgba(255, 0, 255, 0.02) 0px, rgba(255, 0, 255, 0.02) 1px, transparent 1px, transparent 4px);
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        /* ===== TYPOGRAPHY ===== */
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #00ffcc;
+            text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+            letter-spacing: 0.05em;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            border-bottom: 2px solid #ff00ff;
+            display: inline-block;
+            padding-bottom: 0.3rem;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #ff00ff;
+            text-shadow: 0 0 8px #ff00ff;
+            margin: 2rem 0 1rem;
+            border-left: 4px solid #00ffcc;
+            padding-left: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #00ccff;
+            margin-bottom: 0.5rem;
+        }
+
+        p, li, a, blockquote {
+            font-size: 1rem;
+            color: #c0c0c0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        a {
+            color: #00ffcc;
+            text-decoration: underline;
+            transition: color 0.2s, text-shadow 0.2s;
+        }
+
+        a:hover {
+            color: #ff00ff;
+            text-shadow: 0 0 10px #ff00ff;
+        }
+
+        /* ===== LAYOUT ===== */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        section {
+            padding: 2rem 0;
+            border-top: 1px solid rgba(255, 0, 255, 0.2);
+            margin-top: 1rem;
+        }
+
+        /* ===== NAVIGATION ===== */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+            border-bottom: 2px solid #ff00ff;
+            margin-bottom: 1rem;
+            position: relative;
+        }
+
+        nav .logo {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #00ffcc;
+            text-shadow: 0 0 5px #00ffcc;
+            text-decoration: none;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 1.5rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            font-weight: 600;
+            padding: 0.3rem 0.5rem;
+            border: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        nav ul li a:hover {
+            border-color: #ff00ff;
+        }
+
+        /* 햄버거 메뉴 */
+        .hamburger-menu {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 5px;
+            background: none;
+            border: none;
+            padding: 0.5rem;
+        }
+
+        .hamburger-menu span {
+            width: 25px;
+            height: 2px;
+            background: #00ffcc;
+            display: block;
+            transition: all 0.3s;
+        }
+
+        /* 반응형 768px 이하 */
+        @media (max-width: 768px) {
+            .hamburger-menu {
+                display: flex;
+            }
+
+            nav ul {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: #0a0a0a;
+                border: 1px solid #ff00ff;
+                padding: 1rem;
+                z-index: 100;
+            }
+
+            nav ul.nav-open {
+                display: flex;
+            }
+        }
+
+        /* ===== HERO ===== */
+        .hero {
+            text-align: center;
+            padding: 3rem 0 2rem;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+            color: #a0a0a0;
+        }
+
+        /* ===== CARD ===== */
+        .card {
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid #ff00ff;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 0 15px rgba(255, 0, 255, 0.2);
+            transition: box-shadow 0.3s;
+        }
+
+        .card:hover {
+            box-shadow: 0 0 25px rgba(0, 255, 204, 0.3);
+        }
+
+        .card h3 {
+            border-bottom: 1px dashed #00ffcc;
+            padding-bottom: 0.3rem;
+            margin-bottom: 1rem;
+        }
+
+        .card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .card ul li::before {
+            content: ">>> ";
+            color: #ff00ff;
+        }
+
+        /* ===== FAQ ===== */
+        .faq-item {
+            margin-bottom: 1rem;
+            padding: 0.8rem;
+            border: 1px solid rgba(0, 255, 204, 0.3);
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        .faq-item h3 {
+            cursor: pointer;
+            color: #00ffcc;
+            font-size: 1.1rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .faq-item p {
+            margin-top: 0.5rem;
+            display: block;
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            margin-top: auto;
+            border-top: 2px solid #ff00ff;
+            padding: 1.5rem 0;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        footer a.tel-link {
+            display: inline-block;
+            font-size: 1.1rem;
+            color: #00ffcc;
+            text-decoration: none;
+            border: 1px solid #00ffcc;
+            padding: 0.5rem 1rem;
+            margin-top: 0.5rem;
+            transition: background 0.2s;
+        }
+
+        footer a.tel-link:hover {
+            background: rgba(0, 255, 204, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- 네비게이션 -->
+    <nav>
+        <a href="/" class="logo">[마포 백링크]</a>
+        <ul id="navMenu">
+            <li><a href="/">홈</a></li>
+            <li><a href="/info">정보</a></li>
+            <li><a href="/service">서비스</a></li>
+            <li><a href="/contact">문의</a></li>
+        </ul>
+        <button class="hamburger-menu" id="hamburgerBtn" aria-label="메뉴 열기">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- 히어로 -->
+    <section class="hero">
+        <h1>정보</h1>
+        <p>마포에서 직접 운영하는 프록시 보안 &amp; 백링크 대행,<br>그 모든 것을 투명하게 공개합니다.</p>
+    </section>
+
+    <!-- 상세 정보 섹션 -->
+    <section>
+        <h2>왜 마포인가?</h2>
+        <div class="card">
+            <p>저희 사무실은 마포구 성산동에 있어요. 직접 운영하는 PBN 서버도 이 근처 IDC에 위치하고 있죠. <strong>지역 기반 보안 인프라</strong>는 생각보다 큰 차이를 만듭니다. 딜레이가 줄고, IP 평판 관리가 수월해져요. 게다가 제가 매일 직접 모니터링하니까 문제 생기면 바로바로 대응 가능합니다.</p>
+            <p>솔직히 초창기에는 해외 서버만 고집했었는데요, 국내 IP가 필요한 클라이언트가 늘면서 아예 마포에 거점을 두게 됐어요. 지금은 오히려 더 안정적이고 빠르다는 피드백을 받고 있어요.</p>
+        </div>
+
+        <h2>백링크 대행, 어떻게 진행되나요?</h2>
+        <div class="card">
+            <h3>Phase 1: 사이트 분석 &amp; 키워드 설정</h3>
+            <p>처음엔 상담을 통해 목표 키워드와 현재 백링크 상태를 파악합니다. "이런 식으로 링크를 걸면 구글한테 혼나지 않을까?" 하는 고민, 저희가 다 해결해드려요.</p>
+        </div>
+        <div class="card">
+            <h3>Phase 2: Tier3 PBN 구축 &amp; 프록시 보안 적용</h3>
+            <p>저희만의 Tier3 PBN 네트워크에 사이트를 등록하고, 각 PBN 사이트마다 프록시 보안을 설정합니다. 이 과정에서 IP가 깔끔하게 관리되고, 검색엔진 눈에는 자연스러운 링크 프로필로 보이게 돼요.</p>
+        </div>
+        <div class="card">
+            <h3>Phase 3: 지속적인 모니터링 &amp; 리포팅</h3>
+            <p>백링크가 걸린 후에도 지속적으로 상태를 체크합니다. 링크가 깨지거나 사이트에 문제가 생기면 즉시 수정하고, 매월 리포트를 보내드려요. "그냥 걸고 끝"이 아니라, 끝까지 관리해드리는 게 저희 철학입니다.</p>
+        </div>
+
+        <h2>프록시 보안 — 왜 중요할까요?</h2>
+        <div class="card">
+            <p>백링크를 걸 때 원본 IP가 노출되면 여러 문제가 생길 수 있어요. 경쟁사가 악의적으로 신고를 하거나, 검색엔진이 패턴을 감지해서 페널티를 줄 수도 있죠. 저희는 각 PBN 사이트마다 <strong>별도의 프록시 IP</strong>를 할당하고, 트래픽을 암호화합니다. 마치 각 사이트가 완전히 다른 사람이 운영하는 것처럼 보이게 만드는 거예요.</p>
+            <p>예전에 어떤 분은 "프록시까지 쓸 필요가 있나요?"라고 물으셨는데, 한 달 후에 IP 노출로 인해 사이트가 날아간 사례를 직접 보여드렸더니 바로 가입하셨어요. 그만큼 중요한 부분입니다.</p>
+        </div>
+
+        <h2>자주 묻는 질문</h2>
+
+        <div class="faq-item">
+            <h3>Q. PBN이 정말 안전한가요?</h3>
+            <p>저희가 운영하는 Tier3 PBN은 각 사이트가 완전히 독립된 환경에서 돌아갑니다. 서로 다른 IP, 다른 호스팅, 다른 CMS 심지어 디자인 테마도 다르게 설정해요. 검색엔진 입장에서는 그냥 평범한 블로그나 정보 사이트로만 보일 뿐입니다. 물론 100% 안전을 보장할 순 없지만, 지금까지 3년 넘게 문제없이 운영 중이에요.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Q. 마포 지역 업체만 이용 가능한가요?</h3>
+            <p>전혀 아니에요! 전국 어디든, 해외 클라이언트도 가능합니다. 다만 저희 사무실이 마포에 있다 보니 지역 기반 SEO가 필요한 분들께 특히 추천드리고 있어요. 예를 들어 "마포 백링크 대행" 같은 키워드로 검색하
+</body>
+</html>
